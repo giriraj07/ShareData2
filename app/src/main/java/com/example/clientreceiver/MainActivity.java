@@ -5,7 +5,6 @@ import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.net.Uri;
-import android.support.v4.content.CursorLoader;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -19,7 +18,6 @@ public class MainActivity extends Activity {
 
     TextView contactsTextView = null;
     EditText deleteIDEditText, idLookupEditText, addNameEditText;
-    CursorLoader cursorLoader;
 
     // Provides access to other applications Content Providers
     ContentResolver resolver;
